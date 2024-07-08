@@ -56,12 +56,13 @@ Step 1:
 Download the repository as zip and extract it.
 ```
 
-Step 2:
+Step 2: Open the extracted file using any Text Editor and simply type the following commmands in the terminal:
 
 ```
-Open the extracted file using any Text Editor and simply type the following commmands in the terminal:
-
 sudo apt-get install libreadline-dev
+```
+
+```
 
 gcc -o my_shell my_shell.c -lreadline
 ```
