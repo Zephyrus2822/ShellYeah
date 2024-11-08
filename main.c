@@ -7,6 +7,11 @@
 #include<readline/readline.h>
 #include<readline/history.h>
 
+//TO-DO: 1. Make this windows-based, get rid of POSIX functions
+//       2. Add mkdir, rm functionality.
+//       3. Add copy, cut, paste functionality.
+//       4. Admin access for actually being able to use this in someone's PC? Need to check this. 
+
 #define MAXCOM 1000 // max number of letters to be supported 
 #define MAXLIST 100 // max number of commands to be supported 
 
